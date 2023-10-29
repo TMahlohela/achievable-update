@@ -56,5 +56,12 @@ public class StudentService {
 
         repo.delete(repo.findById(id).get());
     }
+
+    //update
+
+    public void updateStudent(Integer id){
+        repo.update(repo.findById(id).get());
+        
+    }
     
 }
