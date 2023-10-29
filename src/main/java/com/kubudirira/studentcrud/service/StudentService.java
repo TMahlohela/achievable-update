@@ -59,8 +59,8 @@ public class StudentService {
 
     //update
 
-    public void updateStudent(Integer id){
-        repo.update(repo.findById(id).get());
+    public void editStudent(Integer id){
+        repo.edit(repo.findById(id).get());
         
     }
     
